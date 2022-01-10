@@ -1,0 +1,22 @@
+.dice-container {
+  padding: 20px 0;
+  min-width: 300px;
+  }
+
+.die {
+  font-size: 2.6em;
+  display: inline-block;
+}
+
+.Die-rolling {
+  animation: spin 1s ease-out;
+}
+
+.Die-locked {
+  opacity: 0.5;
+  text-shadow: none;
+}
+
+.die i:hover {
+  cursor: pointer;
+}

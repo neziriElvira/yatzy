@@ -1,11 +1,12 @@
 import Game from "./components/Game";
+import { Container, Segment } from 'semantic-ui-react';
 
 
 function App() {
   return (
-    <div className="App">
+    <Segment>
       <Game />
-    </div>
+    </Segment>
   );
 }
 
